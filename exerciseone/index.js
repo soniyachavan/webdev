@@ -18,13 +18,10 @@ if(Meteor.isClient) {
 
 if(Meteor.isServer) {
 
-Meteor.publish("allusers",
-  function () {
-    return Meteor.users.findOne({admin: true, emails:Meteor.user().emails,username:Meteor.user().username},
+Meteor.publish("allusers",function () {
+    return Meteor.users.find({_id:this.userId},
       {fields: {createdAt: 1}});
   });
-
-
 }
 
 
