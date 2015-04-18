@@ -5,10 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
-iron:router
 accounts-ui
 accounts-base
 accounts-password
-twbs:bootstrap
+service-configuration
+standard-app-packages
+ian:bootstrap-3
+insecure
