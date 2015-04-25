@@ -1,28 +1,21 @@
-if(Meteor.isClient) {
-
-	Template.user.helpers({
-	  username: function() {
-	    return Meteor.user().username;
-	  }
-	});	
-
-	Accounts.ui.config({
-		passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
-	})
-
-	if(Meteor.user()){
-    Meteor.subscribe('allusers');
-}
-}
-
-
-if(Meteor.isServer) {
-
 Meteor.publish("allusers",function () {
-    return Meteor.users.find({_id:this.userId},
-      {fields: {createdAt: 1}});
-  });
-}
+	var query = {};
+	var options = {
+		fields: {
+			createdAt: 1
+		}
+	};
+
+	return Meteor.users.find(query, options);
+	
+    // return Meteor.users.find({}, { fields: { createdAt: 1 }});
+});
+
+Meteor.publish("expenses",function () {
+	return Expenses.find();
+
+});
+	
 
 
 
@@ -34,18 +27,19 @@ Meteor.publish("allusers",function () {
 
 
 
-
-
-
-
-// 	Template.user_details.helpers({
+// 	Template.allusers.helpers({
 // 		emails: function() {
 // 			return Meteor.user().emails[0].address;
 // 		},
 // 		username: function() {
 // 	    return Meteor.user().username;
-// 		}
+// 	}
+// });
+// 		// createdAt: function() {
+// 		// 	return Meteor.user().createdAt;
+// 		// }
+ 	
 		
-// 	})
-// }
+// // 	})
+// // }
 

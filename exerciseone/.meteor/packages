@@ -12,3 +12,5 @@ service-configuration
 standard-app-packages
 ian:bootstrap-3
 insecure
+momentjs:moment
+mrt:moment

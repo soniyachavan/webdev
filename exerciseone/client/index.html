@@ -47,19 +47,17 @@
             {{>allusers}}
         </div>
         <hr>
-        <hr>
-
-
-
-
-
+        <div>
+            {{>allmyexpense}}
+        </div>
     </div>
-
 
 </body>
 
 <template name="user">
-  <h2>Welcome {{username}}</h2>
+<div class="container">
+    <h2>Welcome {{username}}</h2>
+    </div>
 </template>
 
 <template name="allusers">
@@ -69,16 +67,17 @@
             <button type="button" class="btn btn-success">Edit</button>
             </div>
             <ol>
+                
                 <!-- {{#each user}} -->
                     <div class="row">
                     <div class="col-md-4">
-                    <li>{{emails}}</li>
+                    <ul>{{emails}}</ul>
                     </div>
                     <div class="col-md-4">
-                    <li>{{username}}</li>
+                    <ul>{{username}}</ul>
                     </div>
                     <div class="col-md-4">
-                    <li>{{createdAt}}</li>
+                    <ul>{{createdAt}}</ul>
                     </div>
                     </div>
                 <!-- {{/each}} -->
@@ -89,3 +88,31 @@
     </div>
 
 </template>
+    
+<template name="allmyexpense">
+        <div class="container">
+            <div class="panel panel-default panel-primary">
+                <div class="panel-heading">Add an expense</div>
+                    
+                    <hr>
+                    <div class="container">
+                    <form class="form-inline myexpense" role="form" >
+                    <div class="form-group">
+                        <label class="control-label" for="Name">Name:</label>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="enter the name">
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount:</label>
+                        <input type="text" name="amount" class="form-control" id="amount" placeholder="enter the amount">
+                    </div>
+                    </form>
+                <hr>
+                </div>
+                <div class="panel-footer"> 
+                    <button class="btn btn-danger btn-md">Clear</button>
+                    <button class="btn btn-success btn-md pull-right submit">Submit</button>
+                </div>
+            </div>
+
+        </div>
+</template>    
