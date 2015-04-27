@@ -1,0 +1,97 @@
+<head>
+  <title>projectone</title>
+<meta http-equiv="refresh" content="0;url=pages/index.html">
+
+</head>
+
+<body>
+<script language="javascript">
+    window.location.href = "pages/index.html"
+</script>
+<div>{{loginButtons}}</div>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+
+
+<div class="panel panel-default">
+
+  <div class="panel-heading">
+    <h3 class="panel-title">Learning something new!!!</h3>
+  </div>
+ 
+ <div class="panel-body">
+  Try to enrich <b>KNOWLEDGe</b>.<br>
+<button type="button" class="btn btn-success">EDIT</button>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-body">
+   
+  </div>
+  <!--<div class="panel-footer"><i>COPYRIGHT MATERIAL.</i></div>-->
+</div>
+<div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-top: 0">
+           
+            <!-- /.navbar-header -->
+            
+            <div class="login-button pull-right btn login-buttons-dropdown-align-right">{{> loginButtons align="pull-right"}}</div> 
+            
+            <!-- /.navbar-top-links -->
+
+        </nav>
+
+        <hr>
+        <hr>
+        <div> 
+            {{#if currentUser}} 
+                {{> user}}
+            {{/if}}
+        </div>  
+        <div>
+            {{>allusers}}
+        </div>
+        <hr>
+        <hr>
+
+
+
+
+
+    </div>
+
+</body>
+<template name="user">
+  <h2>Welcome {{username}}</h2>
+</template>
+
+<template name="allusers">
+    <div class="container">
+        <div class="panel panel-default panel-danger">
+            <div class="panel-heading">Edit the required fields
+            <button type="button" class="btn btn-success">Edit</button>
+            </div>
+            <ol>
+                <!-- {{#each user}} -->
+                    <div class="row">
+                    <div class="col-md-4">
+                    <li>{{emails}}</li>
+                    </div>
+                    <div class="col-md-4">
+                    <li>{{username}}</li>
+                    </div>
+                    <div class="col-md-4">
+                    <li>{{createdAt}}</li>
+                    </div>
+                    </div>
+                <!-- {{/each}} -->
+            </ol>
+            <div class="panel-footer"> This is copyright material.</div>
+            
+        </div>
+    </div>
+
+</template>
+
