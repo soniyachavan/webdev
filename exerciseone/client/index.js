@@ -59,14 +59,30 @@
 			console.log('amount value:',amount.value);
 			var data={
 				name: name.value,
-				amount: amount.value
+				amount: amount.value,
+				user_id: Meteor.userId(),
+				currency: 'INR'
 			}
 			console.log('data:', data)
 				// Expense.insert ({
 				// 	name: name.value,
 				// 	amount: amount.value	
 				// });
-		
+			
 			Expenses.insert (data);
-		}
+
+		},
+		
+
+
+		// function myFunction() {
+  //   		document.getElementById("myForm").reset();
+		// }
+
 	});
+
+	Template.allmyexpense.helpers({
+		expenses: function() {
+			return Expenses.find().fetch();
+		}
+	})

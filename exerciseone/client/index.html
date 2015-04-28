@@ -95,21 +95,47 @@
                 <div class="panel-heading">Add an expense</div>
                     
                     <hr>
+                        <div class="table-bordered table-hover">
+                            <table class="table">
+                                <thead> 
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Amount</th>
+                                        <th>userId</th>
+                                        <th>currency</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                      
+                                      {{#each expenses}}
+                                      <tr>
+                                        <td>{{name}}</td>
+                                        <td>{{amount}}</td>
+                                        <td>{{user_id}}</td>
+                                        <td>{{currency}}</td>
+                                      </tr>
+                                      {{/each}}
+                                </tbody>
+                            </table>    
+                        </div>
+                    <hr>
+
                     <div class="container">
-                    <form class="form-inline myexpense" role="form" >
-                    <div class="form-group">
-                        <label class="control-label" for="Name">Name:</label>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="enter the name">
-                    </div>
-                    <div class="form-group">
-                        <label for="amount">Amount:</label>
-                        <input type="text" name="amount" class="form-control" id="amount" placeholder="enter the amount">
-                    </div>
+                    <form id="myForm" class="form-inline myexpense" role="form" >
+                        <div class="form-group">
+                            <label class="control-label" for="Name">Name:</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="enter the name">
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Amount:</label>
+                            <input type="text" name="amount" class="form-control" id="amount" placeholder="enter the amount">
+                        </div>
                     </form>
                 <hr>
                 </div>
                 <div class="panel-footer"> 
-                    <button class="btn btn-danger btn-md">Clear</button>
+                    <button class="btn btn-danger btn-md"  >Clear</button>
                     <button class="btn btn-success btn-md pull-right submit">Submit</button>
                 </div>
             </div>
