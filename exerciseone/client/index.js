@@ -64,13 +64,10 @@
 				currency: 'INR'
 			}
 			console.log('data:', data)
-				// Expense.insert ({
-				// 	name: name.value,
-				// 	amount: amount.value	
-				// });
+		
 			
 			Expenses.insert (data);
-
+			document.getElementById("myForm").reset();
 		},
 		
 // <<<<<<<<<<<<<<<<<< delete function>>>>>>>>>>>>>>>>>>>>>>>>>
