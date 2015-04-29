@@ -73,11 +73,12 @@
 
 		},
 		
+// <<<<<<<<<<<<<<<<<< delete function>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-		// function myFunction() {
-  //   		document.getElementById("myForm").reset();
-		// }
+		"click .delete" :function() {
+			Expenses.remove(this._id);
+		}
 
 	});
 
