@@ -33,16 +33,7 @@
 	Meteor.subscribe("allusers");
 	Meteor.subscribe("expenses");
 	 
-	// Template.Allmyexpense.events({
-	// 	'click .submit': function() {
-	// 		Expenses.insert({
-	// 			expenses: $('.form-control').val()
-	// 		});
-	// 		$('.form-control').val('');
-	// 	}
-	// });
-
-
+	
 
 
 
@@ -60,14 +51,16 @@
 			var data={
 				name: name.value,
 				amount: amount.value,
-				user_id: Meteor.userId(),
+				username: Meteor.user().username,
+				// user_id: Meteor.userId(),
 				currency: 'INR'
 			}
 			console.log('data:', data)
 		
 			
 			Expenses.insert (data);
-			document.getElementById("myForm").reset();
+			// document.getElementById("myForm").reset();
+			$('#myForm').trigger("reset");
 		},
 		
 // <<<<<<<<<<<<<<<<<< delete function>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -76,6 +69,8 @@
 		"click .delete" :function() {
 			Expenses.remove(this._id);
 		}
+		
+		
 
 	});
 
@@ -84,3 +79,4 @@
 			return Expenses.find().fetch();
 		}
 	})
+
