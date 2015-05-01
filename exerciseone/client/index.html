@@ -30,7 +30,8 @@
            
             <!-- /.navbar-header -->
             
-            <div class="login-button pull-right btn login-buttons-dropdown-align-right">{{> loginButtons align="pull-right"}}</div> 
+            <div class="login-button pull-right btn login-buttons-dropdown-align-right">{{> loginButtons align="pull-right"}}
+            </div> 
             
             <!-- /.navbar-top-links -->
 
@@ -50,6 +51,7 @@
         <div>
             {{>allmyexpense}}
         </div>
+
     </div>
 
 </body>
@@ -83,6 +85,7 @@
                 <!-- {{/each}} -->
             </ol>
             <div class="panel-footer"> This is the footer</div>
+
             
         </div>
     </div>
@@ -91,8 +94,20 @@
     
 <template name="allmyexpense">
         <div class="container">
-            <div class="panel panel-default panel-primary">
-                <div class="panel-heading">Add an expense</div>
+            <div class="panel panel-info clearfix">
+                <div class="panel-heading clearfix"><h3>Add an expense</h3>
+                    <div class="dropdown pull-right">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                        Dropdown
+                        <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        {{#each expenses}}
+                            {{>dropdownUsers}}
+                        {{/each}}
+                  </ul>
+                </div>
+                </div>
                     
                     <hr>
                         <div class="table-bordered table-hover">
@@ -110,14 +125,7 @@
                                 <tbody>
                                       
                                       {{#each expenses}}
-                                      <tr>
-                                        <td>{{name}}</td>
-                                        <td>{{amount}}</td>
-                                        <td>{{username}}</td>
-                                        <!-- <td>{{user_id}}</td> -->
-                                        <td>{{currency}}</td>
-                                        <td><button class="btn btn-danger delete">Delete</button></td>
-                                      </tr>
+                                        {{>allmyexpenses_row}}
                                       {{/each}}
                                 </tbody>
                             </table>    
@@ -145,3 +153,20 @@
 
         </div>
 </template>    
+
+
+
+<template name="allmyexpenses_row">
+    <tr>
+        <td>{{name}}</td>
+        <td>{{amount}}</td>
+        <td>{{username}}</td>   
+        <!-- <td>{{user_id}}</td> -->
+        <td>{{currency}}</td>
+        <td><button class="btn btn-danger delete">Delete</button></td>
+    </tr>
+</template>
+
+<template name="dropdownUsers">
+<li role="presentation"><a role="menuitem" tabindex="-1">{{username}}</a></li>
+</template>

@@ -1,1 +1,465 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curre",
+				"currentElementId"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"u",
+				"userId"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"all",
+				"allmyexpense"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"f",
+				"form-control"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"t",
+				"navbar-top-links"
+			],
+			[
+				"l",
+				"lon"
+			],
+			[
+				"d",
+				"dlon"
+			],
+			[
+				"point",
+				"point"
+			],
+			[
+				"get",
+				"getDistance"
+			],
+			[
+				"po",
+				"point"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"poin",
+				"point"
+			],
+			[
+				"ge",
+				"getdistance"
+			],
+			[
+				"poi",
+				"point"
+			],
+			[
+				"poit",
+				"point2"
+			],
+			[
+				"geo",
+				"geo2"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"p",
+				"point"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"co",
+				"co-ordinates"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"ues",
+				"username"
+			],
+			[
+				"fi",
+				"find"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"hea",
+				"head	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"sc",
+				"src"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"b",
+				"b	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hafiz/greenroomnow/webdev/exerciseone"
+	],
+	"file_history":
+	[
+		"/home/hafiz/greenroomnow/webdev/exerciseone/exerciseone",
+		"/home/hafiz/greenroomnow/webdev/exerciseone/index.js",
+		"/home/hafiz/greenroomnow/webdev/exerciseone/client/index.js",
+		"/home/hafiz/greenroomnow/webdev/exerciseone/index.html",
+		"/home/hafiz/greenroomnow/try3.js",
+		"/home/hafiz/greenroomnow/try1.js",
+		"/home/hafiz/greenroomnow/try2.js",
+		"/home/hafiz/greenroomnow/rect.js",
+		"/home/hafiz/greenroomnow/geo.js",
+		"/home/hafiz/greenroomnow/greenroomnow",
+		"/home/hafiz/greenroomnow/try1",
+		"/home/hafiz/webdev/exerciseone/index.html",
+		"/home/hafiz/webdev/exerciseone/index.js",
+		"/home/hafiz/sample_meteor_projects/andrew/andrew",
+		"/home/hafiz/Desktop/exerhtml.html",
+		"/home/hafiz/vnproject/vnproject/client/views/index.html",
+		"/home/hafiz/sample1/sample1.js",
+		"/home/hafiz/webdev/exerciseone/.meteor/packages",
+		"/home/hafiz/webdev/exerciseone/index.css",
+		"/home/hafiz/webdev/exerciseone/client/views/user.html",
+		"/home/hafiz/webdev/exerciseone/client/views/user.js",
+		"/home/hafiz/sample_meteor_projects/whatbugsme/client/views/dashboard/dashboard.html",
+		"/home/hafiz/exerciseone/index.js",
+		"/home/hafiz/exerciseone/index.css",
+		"/home/hafiz/exerciseone/.meteor/packages",
+		"/home/hafiz/Downloads/startbootstrap-sb-admin-2-1.0.6/pages/index.html",
+		"/home/hafiz/Downloads/startbootstrap-sb-admin-2-1.0.6/dist/css/sb-admin-2.css",
+		"/home/hafiz/exerciseone/index.html",
+		"/home/hafiz/Downloads/startbootstrap-sb-admin-2-1.0.6/dist/css/timeline.css",
+		"/home/hafiz/Downloads/startbootstrap-sb-admin-2-1.0.6/index.html",
+		"/home/hafiz/exerciseone/public/css/sb-admin-2.css",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/forms.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/dist/css/sb-admin-2.css",
+		"/home/hafiz/exerciseone/client/views/exerciseone.html",
+		"/home/hafiz/exerciseone/lib/router.js",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/index.html",
+		"/media/hafiz/ALL data files/udacity/version-control/reflections/lesson_1_reflections.txt",
+		"/media/hafiz/ALL data files/udacity/g1.txt",
+		"/media/hafiz/ALL data files/udacity/g2.txt",
+		"/home/hafiz/calendarapp/calendarapp.js",
+		"/ Canvas Asteroids",
+		"/home/hafiz/calendarapp/calendarapp.css",
+		"/home/hafiz/Downloads/got/meteor-bootstrap-grayscale-master/index.html",
+		"/home/hafiz/sample1/sample1.html",
+		"/home/hafiz/sample1/pages/index.html",
+		"/home/hafiz/calendarapp/calendarapp.html",
+		"/home/hafiz/Desktop/a.html",
+		"/home/hafiz/exerciseone/exerciseone.js",
+		"/home/hafiz/microscope/client/stylesheets/style.css",
+		"/home/hafiz/microscope/client/main.html",
+		"/home/hafiz/microscope/client/templates/posts/posts_list.html",
+		"/home/hafiz/microscope/client/templates/posts/post_item.html",
+		"/home/hafiz/sample1/index.html",
+		"/home/hafiz/sample1/bower_components/jquery/src/intro.js",
+		"/home/hafiz/exerciseone/exerciseone.html",
+		"/home/hafiz/sample1/pages/blank.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/typography.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/tables.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/panels-wells.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/notifications.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/morris.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/login.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/blank.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/buttons.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/flot.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/grid.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/icons.html",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/pages/index.html",
+		"/home/hafiz/simple-todos/simple-todos.html",
+		"/home/hafiz/simple-todos/simple-todos.css",
+		"/home/hafiz/simple-todos/simple-todos.js",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/js/morris-data.js",
+		"/media/hafiz/ALL data files/greenroomnow/exerciseone project/startbootstrap-sb-admin-2-1.0.6/js/flot-data.js",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/1st.html",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/css/bootstrap.min.css",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/js/jquery.min.js",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/js/bootstrap.min.js",
+		"/home/hafiz/Downloads/startbootstrap-sb-admin-2-1.0.6/pages/forms.html",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/css/style.css",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/new1/1st.html",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/js/bootstrap.js",
+		"/media/hafiz/ALL data files/bootstrap/Working_files_Bootstrap/main.html",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/template.html",
+		"/media/hafiz/ALL data files/bootstrap/bootstrap-3.3.4-dist/new1/js/jquery.min.js",
+		"/media/hafiz/ALL data files/greenroomnow/sitemap.xml",
+		"/media/hafiz/New Volume/greenroomnow/startbootstrap-sb-admin-2-1.0.5/html test/a.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clear",
+			"myex",
+			"Submit",
+			"    <",
+			"Welcome",
+			"lon",
+			"point",
+			"</li>",
+			"<li>",
+			"ul",
+			"u;",
+			"uk",
+			"<ul>",
+			"side",
+			"index",
+			"SB",
+			"/html",
+			"bower",
+			"html",
+			"selector",
+			"jque"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</ul>",
+			"<ul>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "exerciseone.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

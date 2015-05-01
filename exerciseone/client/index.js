@@ -32,7 +32,7 @@
 	
 	Meteor.subscribe("allusers");
 	Meteor.subscribe("expenses");
-	 
+	Meteor.subscribe("allmyexpenses_row");	 
 	
 
 
@@ -51,8 +51,8 @@
 			var data={
 				name: name.value,
 				amount: amount.value,
-				username: Meteor.user().username,
-				// user_id: Meteor.userId(),
+				// username: Meteor.user().username,
+				user_id: Meteor.userId(),
 				currency: 'INR'
 			}
 			console.log('data:', data)
@@ -79,4 +79,19 @@
 			return Expenses.find().fetch();
 		}
 	})
+
+	Template.allmyexpenses_row.helpers({
+	    username: function() {
+	     	return Meteor.users.findOne(this.user_id).username;
+    	}
+	});
+
+	Template.dropdownUsers.helpers({
+		username: function() {
+	     	return Meteor.users.findOne(this.user_id).username;
+	     }
+	})
+
+
+
 
