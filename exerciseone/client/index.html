@@ -102,11 +102,11 @@
                         <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        {{#each expenses}}
-                            {{>dropdownUsers}}
-                        {{/each}}
-                  </ul>
-                </div>
+                            {{#each uniqueUsers}}
+                                {{> dropdownUsers}}
+                            {{/each}}
+                        </ul>
+                    </div>
                 </div>
                     
                     <hr>
@@ -168,5 +168,7 @@
 </template>
 
 <template name="dropdownUsers">
-<li role="presentation"><a role="menuitem" tabindex="-1">{{username}}</a></li>
+    <li role="presentation">
+        <a role="menuitem" tabindex="-1">{{username}}</a>
+    </li>
 </template>

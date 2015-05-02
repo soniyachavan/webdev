@@ -77,6 +77,16 @@
 	Template.allmyexpense.helpers({
 		expenses: function() {
 			return Expenses.find().fetch();
+		},
+		uniqueUsers: function(){
+			var expenses = Expenses.find().fetch();
+			var user_ids = _.pluck(expenses, 'user_id');
+			
+			user_ids = _.uniq(user_ids);
+			console.log(user_ids);
+			var users = Meteor.users.find({ _id: { $in: user_ids } }).fetch();
+			console.log(users);
+			return users;
 		}
 	})
 
@@ -86,12 +96,19 @@
     	}
 	});
 
-	Template.dropdownUsers.helpers({
-		username: function() {
-	     	return Meteor.users.findOne(this.user_id).username;
-	     }
-	})
+	// Template.dropdownUsers.helpers({
+	// 	username: function() {
+	// 		console.log(this);
 
+	//      	var distinctEntries = _.uniq(Meteor.users.findOne(this.user_id).username);
+	//      	return distinctEntries;
+	//      }
+	// })
 
-
-
+Template.dropdownUsers.helpers({
+	// username: function() {
+	// 	console.log('dropdownusers: ',this);
+	// 	return this.username;
+	// 	// return Meteor.users.findOne(this).username;
+	// }	
+})
