@@ -136,11 +136,11 @@
                     <form id="myForm" class="form-inline myexpense" role="form" >
                         <div class="form-group">
                             <label class="control-label" for="Name">Name:</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="enter the name">
+                            <input id="expense_name" type="text" name="name" class="form-control" placeholder="enter the name">
                         </div>
                         <div class="form-group">
                             <label for="amount">Amount:</label>
-                            <input type="text" name="amount" class="form-control" id="amount" placeholder="enter the amount">
+                            <input type="text" id="expense_amount" name="amount" class="form-control" placeholder="enter the amount">
                         </div>
                     </form>
                 <hr>
@@ -169,6 +169,6 @@
 
 <template name="dropdownUsers">
     <li role="presentation">
-        <a role="menuitem" tabindex="-1">{{username}}</a>
+        <a class="unique-user" role="menuitem" tabindex="-1">{{username}}</a>
     </li>
 </template>
